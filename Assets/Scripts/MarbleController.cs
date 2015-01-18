@@ -8,6 +8,7 @@ public class MarbleController : MonoBehaviour {
 	public float sideForce;
 	// Use this for initialization
 	void Start () {
+
 		currentSpeed = initialSpeed;
 	}
 	
