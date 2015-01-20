@@ -6,6 +6,7 @@ public class MarbleController : MonoBehaviour {
 	public float initialSpeed;
 	private float currentSpeed;
 	public float sideForce;
+	public GameObject gameControl;
 	// Use this for initialization
 	void Start () {
 
@@ -27,5 +28,8 @@ public class MarbleController : MonoBehaviour {
 			
 		}
 	
+	}
+	void OnTriggerEnter(Collider col){
+		gameControl.GetComponent<GameController> ().StopScoring ();
 	}
 }
