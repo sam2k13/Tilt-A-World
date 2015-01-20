@@ -16,19 +16,21 @@ public class RoadController : MonoBehaviour {
 		if (risingRight) {
 						transform.Rotate (new Vector3 (0, 0, Time.deltaTime * tiltSpeed));
 			tempAngle += Time.deltaTime * tiltSpeed;
-			Debug.Log(transform.eulerAngles.z);
+			//Debug.Log(transform.eulerAngles.z);
 						if (tempAngle >= maxAngle) {
-				Debug.Log("switched");
+				//Debug.Log("switched");
 								risingRight = false;
 						}
 				} 
 		else {
 			transform.Rotate (new Vector3 (0, 0, -Time.deltaTime* tiltSpeed));	
-			Debug.Log(transform.eulerAngles.z);
+			//Debug.Log(transform.eulerAngles.z);
 			tempAngle -= Time.deltaTime * tiltSpeed;
 			if (tempAngle <= -maxAngle) {
 				risingRight = true;
+				if(maxAngle < 90){
 				maxAngle += 10;
+				}
 			}
 
 
