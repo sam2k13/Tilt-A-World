@@ -37,6 +37,7 @@ public class MenuController : MonoBehaviour {
 	}
 	public void showLeaderboard(){
 		GooglePlayController.googlePlay.SignIn ();
+		GooglePlayController.googlePlay.UpdateLeaderboard (GameData.control.highScore);
 		GooglePlayController.googlePlay.ShowLeaderboard ();
 	}
 	void FindActiveBalls(){

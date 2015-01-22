@@ -28,7 +28,7 @@ public class GooglePlayController : MonoBehaviour {
 		});
 	}
 	public void ShowLeaderboard(){
-		Social.ShowLeaderboardUI();
+		PlayGamesPlatform.Instance.ShowLeaderboardUI(leaderboardID);
 	}
 	public void UpdateLeaderboard(long score){
 		Social.ReportScore(score, leaderboardID, (bool success) => {
