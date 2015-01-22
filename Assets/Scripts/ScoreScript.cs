@@ -18,7 +18,7 @@ public class ScoreScript : MonoBehaviour {
 		if (isAlive) {
 						score = (int)(marble.gameObject.transform.position.z + 5.8f);
 						velocity = (int)marble.gameObject.rigidbody.velocity.z;
-						scoreBoard.text = score.ToString () + " m";
+						scoreBoard.text = score.ToString () + "m";
 				}
 	}
 	public void deactivateScoring(){
@@ -32,8 +32,8 @@ public class ScoreScript : MonoBehaviour {
 			GameData.control.highScore = score;
 			GameData.control.Save();
 		}
-		Debug.Log (GameData.control.highScore.ToString () + " m");
-		return GameData.control.highScore.ToString() + " m";
+		Debug.Log (GameData.control.highScore.ToString () + "m");
+		return GameData.control.highScore.ToString() + "m";
 	}
 	public string getScore(){
 		return score.ToString () + " m";
