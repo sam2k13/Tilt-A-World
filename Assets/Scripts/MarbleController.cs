@@ -23,11 +23,11 @@ public class MarbleController : MonoBehaviour {
 								//currentSpeed += .1f * Time.deltaTime;		
 								rigidbody.AddForce (new Vector3 (0, 0, currentSpeed));
 						} 
-						Vector3 acceler = Input.acceleration;
-						acceler.Normalize();
-						myXaccel = Mathf.Lerp(myXaccel, acceler.x, sideForce * Time.deltaTime);
-						//Debug.Log (myXaccel);
-						rigidbody.AddForce (new Vector3 (myXaccel * sideForce, 0, 0));
+//						Vector3 acceler = Input.acceleration;
+//						acceler.Normalize();
+//						myXaccel = Mathf.Lerp(myXaccel, acceler.x, sideForce * Time.deltaTime);
+//						Debug.Log (myXaccel);
+//						rigidbody.AddForce (new Vector3 (myXaccel * sideForce, 0, 0));
 						if (Input.touchCount >= 1) {
 								Touch touch = Input.touches [0];
 								if (Camera.main.ScreenToViewportPoint (touch.position).y <= .75) {
