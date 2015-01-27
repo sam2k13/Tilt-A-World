@@ -30,8 +30,8 @@ public class GameController : MonoBehaviour {
 			Time.timeScale = 0;
 			gameCanvas.SetActive(false);
 			gameOverCanvas.SetActive(true);
-			scoreText.text = "Score: " + scoreController.GetComponent<ScoreScript>().getScore();
-			highScoreText.text = "High Score: " + scoreController.GetComponent<ScoreScript>().getHighScore();
+			scoreText.text = "SCORE: " + scoreController.GetComponent<ScoreScript>().getScore();
+			highScoreText.text = "HIGH SCORE: " + scoreController.GetComponent<ScoreScript>().getHighScore();
 				
 		} 
 
