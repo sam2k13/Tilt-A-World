@@ -6204,6 +6204,7 @@ Prefab:
   m_IsExploded: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &521619481
 GameObject:
   m_ObjectHideFlags: 0
@@ -6311,6 +6312,8 @@ Prefab:
   m_IsPrefabParent: 0
   m_IsExploded: 1
 >>>>>>> 4a683b7e6914c7960f8627b4bb3a1c69258af786
+=======
+>>>>>>> parent of 62eed7a... Game Over Screen
 =======
 >>>>>>> parent of 62eed7a... Game Over Screen
 --- !u!1001 &530133188
@@ -17473,10 +17476,14 @@ RectTransform:
   m_LocalRotation: {x: 1.13058304e-05, y: -.0174402408, z: -.000628019159, w: .99984771}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: -1}
 =======
   m_LocalPosition: {x: 0, y: 0, z: 6.79227175e-10}
 >>>>>>> 4a683b7e6914c7960f8627b4bb3a1c69258af786
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 6.79227175e-10}
+>>>>>>> parent of 62eed7a... Game Over Screen
 =======
   m_LocalPosition: {x: 0, y: 0, z: 6.79227175e-10}
 >>>>>>> parent of 62eed7a... Game Over Screen
@@ -17493,12 +17500,17 @@ RectTransform:
   m_RootOrder: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchorMin: {x: -.00386996893, y: -.000530030055}
   m_AnchorMax: {x: 1.00902998, y: 1.00866342}
 =======
   m_AnchorMin: {x: .0577915385, y: .0477372967}
   m_AnchorMax: {x: .940144479, y: .914194942}
 >>>>>>> 4a683b7e6914c7960f8627b4bb3a1c69258af786
+=======
+  m_AnchorMin: {x: .0577915385, y: .0477372967}
+  m_AnchorMax: {x: .940144479, y: .914194942}
+>>>>>>> parent of 62eed7a... Game Over Screen
 =======
   m_AnchorMin: {x: .0577915385, y: .0477372967}
   m_AnchorMax: {x: .940144479, y: .914194942}
